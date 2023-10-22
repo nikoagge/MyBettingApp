@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		175134AC2AE3A8B200E9125B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175134AB2AE3A8B200E9125B /* AppDelegate.swift */; };
-		175134AE2AE3A8B200E9125B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175134AD2AE3A8B200E9125B /* SceneDelegate.swift */; };
 		175134B02AE3A8B200E9125B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175134AF2AE3A8B200E9125B /* ViewController.swift */; };
 		175134B32AE3A8B200E9125B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175134B12AE3A8B200E9125B /* Main.storyboard */; };
 		175134B52AE3A8B300E9125B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175134B42AE3A8B300E9125B /* Assets.xcassets */; };
@@ -16,6 +15,11 @@
 		175134C32AE3A8B300E9125B /* MyBettingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175134C22AE3A8B300E9125B /* MyBettingAppTests.swift */; };
 		175134CD2AE3A8B300E9125B /* MyBettingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175134CC2AE3A8B300E9125B /* MyBettingAppUITests.swift */; };
 		175134CF2AE3A8B300E9125B /* MyBettingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175134CE2AE3A8B300E9125B /* MyBettingAppUITestsLaunchTests.swift */; };
+		179E73AE2AE3C12600A89F78 /* BettingEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E73AC2AE3C12600A89F78 /* BettingEventsViewController.swift */; };
+		179E73B22AE3C69100A89F78 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E73B12AE3C69100A89F78 /* NetworkManager.swift */; };
+		179E73B52AE3C6CE00A89F78 /* SportsAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E73B42AE3C6CE00A89F78 /* SportsAPIError.swift */; };
+		179E73B82AE3C73F00A89F78 /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E73B72AE3C73F00A89F78 /* Sports.swift */; };
+		179E73BA2AE3C92D00A89F78 /* SportEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E73B92AE3C92D00A89F78 /* SportEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 /* Begin PBXFileReference section */
 		175134A82AE3A8B200E9125B /* MyBettingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBettingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175134AB2AE3A8B200E9125B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		175134AD2AE3A8B200E9125B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		175134AF2AE3A8B200E9125B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		175134B22AE3A8B200E9125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		175134B42AE3A8B300E9125B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		175134C82AE3A8B300E9125B /* MyBettingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBettingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		175134CC2AE3A8B300E9125B /* MyBettingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBettingAppUITests.swift; sourceTree = "<group>"; };
 		175134CE2AE3A8B300E9125B /* MyBettingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBettingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		179E73AC2AE3C12600A89F78 /* BettingEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingEventsViewController.swift; sourceTree = "<group>"; };
+		179E73B12AE3C69100A89F78 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		179E73B42AE3C6CE00A89F78 /* SportsAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAPIError.swift; sourceTree = "<group>"; };
+		179E73B72AE3C73F00A89F78 /* Sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports.swift; sourceTree = "<group>"; };
+		179E73B92AE3C92D00A89F78 /* SportEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,16 @@
 		175134AA2AE3A8B200E9125B /* MyBettingApp */ = {
 			isa = PBXGroup;
 			children = (
+				179E73B32AE3C6C000A89F78 /* Enums */,
+				179E73B02AE3C67E00A89F78 /* Managers */,
+				179E73B62AE3C72A00A89F78 /* Models */,
 				175134AB2AE3A8B200E9125B /* AppDelegate.swift */,
-				175134AD2AE3A8B200E9125B /* SceneDelegate.swift */,
 				175134AF2AE3A8B200E9125B /* ViewController.swift */,
 				175134B12AE3A8B200E9125B /* Main.storyboard */,
 				175134B42AE3A8B300E9125B /* Assets.xcassets */,
 				175134B62AE3A8B300E9125B /* LaunchScreen.storyboard */,
 				175134B92AE3A8B300E9125B /* Info.plist */,
+				179E73AC2AE3C12600A89F78 /* BettingEventsViewController.swift */,
 			);
 			path = MyBettingApp;
 			sourceTree = "<group>";
@@ -125,6 +136,31 @@
 				175134CE2AE3A8B300E9125B /* MyBettingAppUITestsLaunchTests.swift */,
 			);
 			path = MyBettingAppUITests;
+			sourceTree = "<group>";
+		};
+		179E73B02AE3C67E00A89F78 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				179E73B12AE3C69100A89F78 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		179E73B32AE3C6C000A89F78 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				179E73B42AE3C6CE00A89F78 /* SportsAPIError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		179E73B62AE3C72A00A89F78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				179E73B92AE3C92D00A89F78 /* SportEvent.swift */,
+				179E73B72AE3C73F00A89F78 /* Sports.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179E73B22AE3C69100A89F78 /* NetworkManager.swift in Sources */,
+				179E73AE2AE3C12600A89F78 /* BettingEventsViewController.swift in Sources */,
 				175134B02AE3A8B200E9125B /* ViewController.swift in Sources */,
+				179E73B52AE3C6CE00A89F78 /* SportsAPIError.swift in Sources */,
+				179E73B82AE3C73F00A89F78 /* Sports.swift in Sources */,
 				175134AC2AE3A8B200E9125B /* AppDelegate.swift in Sources */,
-				175134AE2AE3A8B200E9125B /* SceneDelegate.swift in Sources */,
+				179E73BA2AE3C92D00A89F78 /* SportEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +482,6 @@
 				INFOPLIST_FILE = MyBettingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +509,6 @@
 				INFOPLIST_FILE = MyBettingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
